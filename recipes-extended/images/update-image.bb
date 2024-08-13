@@ -11,9 +11,9 @@ SRC_URI = "\
 "
 
 # images to build before building swupdate image
-IMAGE_DEPENDS = "core-image-full-cmdline"
+IMAGE_DEPENDS = "core-image-base"
 
 # images and files that will be included in the .swu image
-SWUPDATE_IMAGES = "core-image-full-cmdline"
+SWUPDATE_IMAGES = "core-image-base"
 
-SWUPDATE_IMAGES_FSTYPES[core-image-full-cmdline] = ".ext4.gz"
+SWUPDATE_IMAGES_FSTYPES[core-image-base] = ".ext4.gz"
